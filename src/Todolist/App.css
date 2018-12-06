@@ -1,0 +1,73 @@
+.titles {
+  background: #f9d423;
+  height: 150px;
+}
+input {
+  padding: 7px;
+  text-align: center;
+  background: #1f2124;
+  border: none;
+  border-radius: 2px;
+  color: #03e1a4;
+}
+.title {
+  font-size: 50px;
+  padding-top: 15px;
+  margin-bottom: -15px;
+}
+.subtitle {
+  margin-bottom: 15px;
+}
+.newTask {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.enter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #1ec0ff;
+  font-size: 25px;
+  padding: 8px;
+}
+.search {
+  font-size: 20px;
+}
+.remove {
+  background: #f9d423;
+  font-size: 18px;
+  border-radius: 3px;
+  border: none;
+  margin-left: 10px;
+}
+.taskItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 24px;
+}
+.taskNumber {
+  text-align: right;
+}
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.clear {
+  margin-top: 15px;
+  margin-right: 8px;
+  font-size: 25px;
+  padding: 10px;
+  background: #f9d423;
+  margin-bottom: 20px;
+}
+body {
+  background: #404146;
+  text-align: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Prompt", sans-serif;
+}
